@@ -1,6 +1,6 @@
 import {Container, Button, Form} from 'react-bootstrap'
 import Depoimentos from '../components/Depoimentos'
-
+import '../assets/css/contatos.css'
 function Contato() {
 
     const handleSubmit = (event) => {

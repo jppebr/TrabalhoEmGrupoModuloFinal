@@ -40,15 +40,9 @@ function Destaques() {
             </Col>      
             <Col className='mt-2' sm="12" md="4">
                 <Card>
-                    <Card.Img variant="top" src="https://via.placeholder.com/300" />
+                    <Card.Img variant="top" src="../image/ismael.jpeg" />
                     <Card.Body>
-                        <Card.Title>Suporte personalizado</Card.Title>
-                        <Card.Text>
-                            O EstudoApp oferece suporte personalizado para você. Entre em contato conosco e tire suas dúvidas.
-                        </Card.Text>
-                        <LinkContainer to="/contato">
-                        <Button variant="warning">Entre em contato</Button>
-                        </LinkContainer>
+                        <Card.Title>Ismael Ramos</Card.Title>
                     </Card.Body>
                 </Card>
             </Col>   

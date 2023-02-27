@@ -36,7 +36,7 @@ function Banners() {
                 <Carousel.Caption>
                     <h5>Contato para parcerias?</h5>
                     <p>
-                        Entre em contato com a nossa equipe para conversar sobre oportunidades de parceria
+                        Entre em contato com a nossa equipe
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>

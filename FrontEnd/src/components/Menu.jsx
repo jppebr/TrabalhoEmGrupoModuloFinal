@@ -41,9 +41,9 @@ function Menu() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/sobre">Sobre</Nav.Link>
+                        <Nav.Link href="/funcionalidades">Funcionalidades</Nav.Link>
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/funcionalidades">Funcionalidade</NavDropdown.Item>
+                            <NavDropdown.Item href="/sobre">Sobre</NavDropdown.Item>
                             <NavDropdown.Item href="contato">
                                 Contanto
                             </NavDropdown.Item>
