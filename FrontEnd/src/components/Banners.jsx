@@ -1,17 +1,19 @@
 import Carousel from 'react-bootstrap/Carousel'
+import '../assets/css/estilo.css'
 
 function Banners() {
     return (
         <Carousel variant="dark" className='conteudo-margin'>
             <Carousel.Item>
                 <img
-                    className="d-block w-65 h-100"
+                    className="d-block w-35 h-35"
                     src="../image/f30.png"
                     alt="Slide incrível"
+                    id='rel'
                 />
                 <Carousel.Caption>
-                    <h5>EstudoApp</h5>
-                    <p>Um app para facilitar a vida do estudante!</p>
+                    <h5>Game News</h5>
+                    <p>Uma Api Que você Nunca viu antes</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

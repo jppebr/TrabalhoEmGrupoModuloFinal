@@ -7,6 +7,7 @@ import Funcionalidades from '../pages/Funcionalidades'
 import Login from '../pages/Login'
 import AdminFuncionalidades from '../pages/Admin/AdminFuncionalidades'
 import AdminSobre from '../pages/Admin/AdminSobre'
+import Equipe from '../pages/equipe'
 
 function Rotas() {
     return (
@@ -14,6 +15,7 @@ function Rotas() {
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/contato" element={<Contato />} />
+            <Route path="/equipe" element={<Equipe />} />
             <Route path="/funcionalidades" element={<Funcionalidades />} />
             <Route path="/login" element={<Login />} />
             <Route path="/admin/funcionalidades" element={<AdminFuncionalidades />} />

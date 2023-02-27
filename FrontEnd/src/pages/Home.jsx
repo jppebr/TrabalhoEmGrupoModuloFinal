@@ -8,7 +8,7 @@ function Home() {
         <>
             <Banners />
             <Container>
-                <Destaques />
+                
                 <Depoimentos />
             </Container>
         </>

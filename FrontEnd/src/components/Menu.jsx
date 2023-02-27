@@ -47,6 +47,9 @@ function Menu() {
                             <NavDropdown.Item href="contato">
                                 Contanto
                             </NavDropdown.Item>
+                            <NavDropdown.Item href="equipe">
+                                Equipe
+                            </NavDropdown.Item>
 
                         </NavDropdown>
                     </Nav>
