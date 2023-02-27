@@ -1,38 +1,43 @@
 import {Row, Col, Card, Button} from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap'
+import '../assets/css/equipe.css'
 
 function Destaques() {
     return (
-        
-        <Row className='mt-2'>
-            <Col className='mt-2' sm="12" md="4">
+        <Row Row xs={1} md={2} className="g-5"> 
+     
+        <Col className='mt-2' sm="12" md="4">
                 <Card>
-                    <Card.Img variant="top" src="https://via.placeholder.com/300" />
+                    <Card.Img variant="top" src="./image/emanuel2.jpeg" />
                     <Card.Body>
-                        <Card.Title>Fácil de usar</Card.Title>
-                        <Card.Text>
-                            O EstudoApp é muito fácil de usar. Você pode criar suas próprias listas de estudo!
-                        </Card.Text>
-                        <LinkContainer to="/">
-                            <Button variant="warning">Acessar o EstudoApp</Button>
-                        </LinkContainer>
+                        <Card.Title>Emanuel Wolves</Card.Title>
                     </Card.Body>
                 </Card>
             </Col>
             <Col className='mt-2' sm="12" md="4">
                 <Card>
-                    <Card.Img variant="top" src="https://via.placeholder.com/300" />
+                    <Card.Img variant="top" src="../image/Misael2.jpeg" />
                     <Card.Body>
-                        <Card.Title>Rápido e confiável</Card.Title>
-                        <Card.Text>
-                            O EstudoApp é muito rápido e confiável. Seus dados são armazenados em servidores seguros.
-                        </Card.Text>
-                        <LinkContainer to="/funcionalidades">
-                            <Button variant="warning">Conheça mais</Button>
-                        </LinkContainer>
+                        <Card.Title>Misael Montezano</Card.Title>
                     </Card.Body>
                 </Card>
             </Col>
+            <Col className='mt-2' sm="12" md="4">
+                <Card>
+                    <Card.Img variant="top" src="../image/joao.jpeg" />
+                    <Card.Body>
+                        <Card.Title>João Pedro</Card.Title>
+                    </Card.Body>
+                </Card>
+            </Col>                
+            <Col className='mt-2' sm="12" md="4">
+                <Card>
+                    <Card.Img variant="top" src="../image/luciano.jpeg" />
+                    <Card.Body>
+                        <Card.Title>Luciano Junior</Card.Title>
+                    </Card.Body>
+                </Card>
+            </Col>      
             <Col className='mt-2' sm="12" md="4">
                 <Card>
                     <Card.Img variant="top" src="https://via.placeholder.com/300" />
@@ -46,7 +51,8 @@ function Destaques() {
                         </LinkContainer>
                     </Card.Body>
                 </Card>
-            </Col>                        
+            </Col>   
+                  
         </Row>
     );
 }
