@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
+
 function Menu() {
 
     return (
@@ -35,7 +36,7 @@ function Menu() {
 
 
         <Navbar bg="light" expand="lg" fixed='top'>
-            <Container>
+            <Container >
                 <Navbar.Brand href="#home">GamesNews</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

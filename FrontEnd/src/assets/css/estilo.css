@@ -1,4 +1,21 @@
 #rel{
-    height: 43vh;
-    width: 43vh;
+    height: 65vh;
+    width: 230vh;
+}
+
+#rol{
+    height: 65vh;
+    width: 230vh;
+    color: black;
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+    color: #ffffff;
+    font-weight:bold;
+    
+}
+h5{
+    color: #ffffff;
 }

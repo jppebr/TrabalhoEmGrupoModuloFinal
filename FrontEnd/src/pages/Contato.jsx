@@ -12,7 +12,7 @@ function Contato() {
     return (
         <Container className='conteudo-margin'>
             <h1>Contato</h1>
-            <p>Entre em contato conosco</p>
+            <p id='fcol'>Entre em contato conosco</p>
 
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="Nome">
@@ -27,7 +27,7 @@ function Contato() {
                     <Form.Label>Mensagem</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                 <Button variant="outline-primary">
                     Enviar contato
                 </Button>
             </Form>

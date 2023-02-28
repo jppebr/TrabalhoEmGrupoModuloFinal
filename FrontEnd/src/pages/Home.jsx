@@ -3,15 +3,14 @@ import Destaques from '../components/Destaques'
 import Depoimentos from '../components/Depoimentos'
 import Banners from '../components/Banners'
 import Tabs from '../components/tabs'
-import '../assets/css/stile.css'
 
 function Home() {
     return (
         <>
             <Banners />
-            <Tabs />
+             <Tabs />
             <Container>
-
+             
 
                 <Depoimentos />
             </Container>

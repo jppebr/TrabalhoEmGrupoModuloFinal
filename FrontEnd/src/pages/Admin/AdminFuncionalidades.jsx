@@ -3,6 +3,7 @@ import {useEffect, useState} from 'react'
 import CmsApi from '../../api/CmsApi'
 import Funcionalidades from './../Funcionalidades';
 
+
 function AdminFuncionalidades() {
     const [funcionalidades, setFuncionalidades] = useState([])
 
@@ -111,7 +112,7 @@ function AdminFuncionalidades() {
                 </Button>
             </Form>
             <hr />
-            <p>Lista de Funcionalidades</p>
+            <p id='fcol'>Lista de Funcionalidades</p>
             <Table striped hover>
                 <thead>
                     <tr>

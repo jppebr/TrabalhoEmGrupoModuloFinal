@@ -16,17 +16,13 @@ const seed = async () => {
     page.text = 'Lorem ipsum dolor sit amet.'
     const pages = [page]
 
-   
     const products = []
-    const database = [{ "id": 1, "titulo": "Notícias em tempo real", "descricao": "Acesso a notícias de jogos em tempo real" }, { "id": 2, "titulo": "Busca avançada de notícias", "descricao": "Busca por notícias específicas por categoria, plataforma, editora, desenvolvedor, etc." }, { "id": 3, "titulo": "Filtragem de notícias", "descricao": "Filtragem de notícias por popularidade ou classificação do usuário" }, { "id": 4, "titulo": "Comentários e classificações", "descricao": "Comentários e classificações de usuários" }, { "id": 5, "titulo": "Análises detalhadas de jogos", "descricao": "Acesso a análises de jogos detalhadas" }, { "id": 6, "titulo": "Integração com outras plataformas", "descricao": "Possibilidade de integração com outras plataformas ou aplicativos" }, { "id": 7, "titulo": "Notificações personalizadas", "descricao": "Notificações personalizadas para usuários interessados em determinados jogos" }, { "id": 8, "titulo": "Vídeos e transmissões ao vivo", "descricao": "Vídeos e transmissões ao vivo de jogos" }, { "id": 9, "titulo": "Informações sobre lançamentos e eventos", "descricao": "Informações sobre lançamentos de jogos e eventos relacionados a jogos" }, { "id": 10, "titulo": "Dados estatísticos de jogos", "descricao": "Dados estatísticos de vendas e jogabilidade de jogos populares" }]
-
-    for (let i = 0; i < database.length; i++) {
+    for (let i=1; i<=10; i++) {
         const prod = new Product()
-        prod.title = database[i].titulo
-        prod.description = database[i].descricao
+        prod.title = `Produto ${i}`
+        prod.description = `Descrição do produto ${i}`
         products.push(prod)
     }
-
 
     const admin = new User()
     admin.email = "admin@case2.com"
