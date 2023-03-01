@@ -13,7 +13,7 @@ const seed = async () => {
 
     const page = new Page()
     page.title = 'Sobre'
-    page.text = 'Lorem ipsum dolor sit amet.'
+    page.text = 'Bem-vindo à nossa API de site de notícias de jogos! Nossa plataforma oferece uma ampla variedade de informações relacionadas a jogos, incluindo notícias, análises, artigos, entrevistas, vídeos e muito mais .   Nossa API permite que você acesse todo o conteúdo de nosso site de notícias de jogos de forma fácil e conveniente.  Você pode usar nossa API para criar aplicativos móveis, bots de conversação, integrar nossas notícias em seu site ou blog, ou qualquer outra coisa que você possa imaginar.Com a nossa API, você pode obter as últimas notícias de jogos em tempo real, além de poder pesquisar nosso enorme acervo de artigos e análises.   Você também pode personalizar sua experiência usando nossa API para filtrar notícias de acordo com o tipo de jogo, plataforma ou editora que você deseja.Nossa API é fácil de usar e está disponível em várias linguagens de programação, como Python, Java, Ruby, PHP e JavaScript.   Oferecemos suporte técnico completo e documentação detalhada para ajudá-lo a começar a usar nossa API em pouco tempo.Se você está procurando uma fonte confiável e atualizada de notícias de jogos, nossa API é a escolha certa para você. Entre em contato conosco hoje para saber mais sobre como nossa API pode ajudar a melhorar a experiência dos seus usuários com notícias de jogos'
     const pages = [page]
 
     const products = []
