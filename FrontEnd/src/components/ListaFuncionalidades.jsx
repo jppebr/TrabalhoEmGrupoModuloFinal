@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 function ItemFuncionalidade(item) {
     return (
-        <Col sm="12" md="4" key={item.id}>
+        <Col sm="12" md="4" key={item.id} id='fcol'>
             <Card className='m-3'>
                 <Card.Body>
                     <Card.Title>
