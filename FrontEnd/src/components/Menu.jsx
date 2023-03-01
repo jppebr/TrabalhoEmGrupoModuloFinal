@@ -46,7 +46,7 @@ function Menu() {
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/sobre">Sobre</NavDropdown.Item>
                             <NavDropdown.Item href="contato">
-                                Contanto
+                                Contato
                             </NavDropdown.Item>
                             <NavDropdown.Item href="equipe">
                                 Equipe
