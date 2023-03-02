@@ -25,4 +25,8 @@ Feito isso.. usar o script migrate usando:
 e em seguida o script seed usando:
 + npm run seed 
 
+E assim o projeto funcionará normalmente.
+  
+#confianoprocesso e bons estudos
+  
 💻🤓👍
