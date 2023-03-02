@@ -51,6 +51,9 @@ function Menu() {
                             <NavDropdown.Item href="equipe">
                                 Equipe
                             </NavDropdown.Item>
+                            <NavDropdown.Item href="login">
+                                Login
+                            </NavDropdown.Item>
 
                         </NavDropdown>
                     </Nav>

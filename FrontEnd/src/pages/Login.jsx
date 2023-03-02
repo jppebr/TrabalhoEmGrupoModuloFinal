@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import CmsApi from '../api/CmsApi'
+import '../assets/css/login.css'
 
 function Login() {
 
@@ -12,7 +13,7 @@ function Login() {
         const senha = form.elements.Senha.value
 
         const retorno = await CmsApi().login(email, senha)
-        if(!retorno.ok){
+        if (!retorno.ok) {
             alert('Não foi possível realizar o login')
             return
         }
@@ -24,9 +25,9 @@ function Login() {
 
     return (
         <Container className='conteudo-margin'>
-        <h1>Login</h1>
+            <h1>Login</h1>
 
-        <Form onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="Email">
                     <Form.Label>E-mail</Form.Label>
                     <Form.Control type="email" placeholder="Digite seu e-mail" />
@@ -40,6 +41,11 @@ function Login() {
                     Realizar Login
                 </Button>
             </Form>
+            <h1 id='log'>Aviso</h1>
+            <p id='fcol'> Apenas Administração pode acessar esse local</p>
+            <div className='im'>
+                <img src="../image/block.png" alt="" />
+            </div>
 
         </Container>
     )
