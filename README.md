@@ -29,4 +29,4 @@ E assim o projeto funcionará normalmente.
   
 #confianoprocesso e bons estudos
   
-💻🤓👍
+💻🤓👍.
